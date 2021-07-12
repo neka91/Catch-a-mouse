@@ -1,0 +1,90 @@
+body {
+    background-color: black; 
+}
+
+h2, .startPic, .startBtn, .finishBtn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2, .startBtn {
+    padding: 10px 10px;
+}
+
+h2 {
+    width: 50%;
+    text-align: center;
+    color: beige;
+}
+
+.startPic {
+    margin-top: 20px;
+    height: 50%;
+    width: 60%;
+    border: 2px solid white;
+    box-shadow: 5px 5px 5px yellow;
+}
+
+.startBtn {
+    margin-top: 30px;
+    min-width: 15%;
+    background-color: beige;
+}
+
+.playPage{
+    display: none;
+}
+
+h3, .score {
+    color: beige;
+}
+
+.gameboard {
+    background-image: url('../images/cat.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: url(../images/cat.cur), pointer;
+    width: 550px;
+    height: 650px;
+    margin: 60px auto;
+    padding: 20px 15px;
+}
+
+.box {
+    float: left;
+    width: 120px;
+    height: 150px;
+    margin: 10px 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.caption {
+    background-image: url('../images/cheese.jpeg');
+    width: 100%;
+    height: 47px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 2;
+}
+
+.mouse {
+    background: url('../images/mouse.png') bottom center no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    top: 100%;
+    transition: all 1s;
+}
+
+.finishBtn {
+    background-color: beige;
+    margin-top: 535px;
+    padding: 5px;
+}
+
+.popUp {
+    top: 0;
+}
